@@ -9,7 +9,7 @@ Source0:	http://xorg.freedesktop.org/releases/individual/app/xkbcomp-%{version}.
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf
 BuildRequires:	automake
-BuildRequires:	pkgconfig
+BuildRequires:	pkg-config
 BuildRequires:	xorg-libxkbfile-devel
 BuildRequires:	xorg-util-macros
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
