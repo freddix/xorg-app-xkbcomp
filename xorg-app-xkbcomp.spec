@@ -1,7 +1,7 @@
 Summary:	xkbcomp application
 Name:		xorg-app-xkbcomp
 Version:	1.2.4
-Release:	1
+Release:	2
 License:	MIT
 Group:		X11/Applications
 Source0:	http://xorg.freedesktop.org/releases/individual/app/xkbcomp-%{version}.tar.bz2
