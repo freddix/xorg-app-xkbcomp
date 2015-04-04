@@ -1,7 +1,7 @@
 Summary:	xkbcomp application
 Name:		xorg-app-xkbcomp
 Version:	1.3.0
-Release:	1
+Release:	2
 License:	MIT
 Group:		X11/Applications
 Source0:	http://xorg.freedesktop.org/releases/individual/app/xkbcomp-%{version}.tar.bz2
@@ -13,6 +13,8 @@ BuildRequires:	pkg-config
 BuildRequires:	xorg-libxkbfile-devel
 BuildRequires:	xorg-util-macros
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
+
+%define		__noautoreqfiles    xkbcomp.pc
 
 %description
 xkbcomp application.
